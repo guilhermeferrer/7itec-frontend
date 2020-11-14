@@ -1,46 +1,34 @@
-# Getting Started with Create React App
+# Desafio 7iTec Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The web app was developed using redux to manage state, redux requests to isolate api calls in a redux layer, axios for handling HTTP requests, styled-components for writing styles with css and make code  more readably, router dom for managing navigation, toastify for displaying all errors and feedback messages and more.
 
-## Available Scripts
+Checkout using the following command to start playing with the website:
 
-In the project directory, you can run:
+```bash
+https://github.com/guilhermeferrer/7itec-frontend
+```
 
-### `yarn start`
+Don't forget to install dependencies:
+```bash
+cd 7itec-mobile && yarn
+```
+or
+```bash
+cd 7itec-frontend && npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To start the app use:
+```bash
+yarn start
+```
+or
+```bash
+npm run start
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Important
+In order to successfully execute the server, you will need to rename `.env.example` to `.env` at root directory and edit it as showed bellow:
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+| KEY | VALUE |
+| ------ | ------ |
+| REACT_APP_API_URL | Port location where the server is running |
